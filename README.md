@@ -1,12 +1,13 @@
 # GBA RPG via GitHub contre Covid 2020 fr
 
-> *"Jouons ensemble à tous les jeux de rôle sur GBA, via GitHub, pour nous occuper (et apprendre git et GitHub) durant la pandémie de Covid en 2020"*.
+> *"Jouons ensemble à des jeux de rôle sur GameBoy Advance, via GitHub, pour nous occuper (et apprendre git et GitHub) durant la pandémie de Covid en 2020"*.
 
 [Sur ce dépôt git](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/GBA-RPG-via-GitHub-contre-Covid-2020.github.io), [je](https://naereen.github.io/me/) vais créer [ce site web](https://GBA-RPG-via-GitHub-contre-Covid-2020.github.io/), pour faire la promotion de [ce projet "GBA-RPG-via-GitHub-contre-Covid-2020"](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/).
 
 <img align="right" width="50%" src="GBA-RPG_via_GitHub_logo_HD.png" alt="Logo, GBA-RPG_via_GitHub_logo_HD.png">
 
 > Auteur : [Lilian Besson (@Naereen)](https://github.com/Naereen/), inspiré librement par [Twitch plays Pokémon](https://fr.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon).
+> Regardez [le premier projet sur Pokémon](https://pokemon-via-github-contre-covid-2020-fr.github.io/).
 
 ---
 
@@ -36,7 +37,48 @@
 
 Je veux faire de mon mieux pour vous aider à apprendre à utiliser git !
 
----
+----
+
+## Quels jeux vont être joués ?
+
+> Vous pouvez [rajouter ici](pulls/) des jeux que vous pensez intéressants.
+> Regardez les listes de meilleurs jeux sur GBA : [sur jeuxvideo.com](http://www.jeuxvideo.com/meilleurs/machine-210/).
+
+### Jeux de rôle jouables sans manette
+
+Dans l'ordre dans lequel je compte les jouer :
+
+- *Fire Emblem* ;
+- *Fire Emblem : The Sacred Stones* ;
+
+- *Golden Sun* ;
+- *Golden Sun 2 : L'Âge Perdu*.
+
+- *Advance Wars* ;
+- *Advance Wars 2 : Black Hole Rising* ;
+
+- *Final Fantasy I and II* Advance ;
+- *Final Fantasy IV* Advance ;
+- *Final Fantasy V* Advance ;
+- *Final Fantasy VI* Advance ;
+- *Final Fantasy Tactics* Advance ;
+
+- Pokémon version *Rubis* ou *Saphir* ou *Émeraude* : cf. [le premier projet sur Pokémon](https://pokemon-via-github-contre-covid-2020-fr.github.io/) ;
+- Pokémon version *Rouge Feu* ou *Vert Feuille* : cf. [le premier projet sur Pokémon](https://pokemon-via-github-contre-covid-2020-fr.github.io/) ;
+
+- *Shining Soul* ;
+- *Shining Soul II* ;
+- *Shining Force : Resurrection of the Dark Dragon*.
+
+### Jeux de rôle jouables avec manette
+
+Ces autres jeux demandent de la dextérité et donc une manette,
+
+- *Sword of Mana* ;
+- *The Legend of Zelda : Minish Cap* ;
+- *The Legend of Zelda : A Link to the Past*.
+
+----
 
 ## Comment rattraper une partie en cours sur un jeu ?
 
@@ -44,7 +86,7 @@ Il faut suivre les étapes suivantes :
 
 1. Télécharger la ROM du jeu, vérifiez que c'est la bonne ROM (avec la somme de contrôle `md5` donnée) ;
 2. Mettre une étoile [au projet maître](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/GBA-RPG-via-GitHub-contre-Covid-2020.github.io) ;
-3. Cloner le dépot git hébergé [sur ce GitHub](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020) pour le jeu actuel ;
+3. Cloner le dépot git, hébergé [sur ce GitHub](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020), spécifique au jeu qui vous intéresse ;
 4. Ajouter votre nom au fichier `whois.md` de ce projet ;
 5. Et quand vous voulez commencer à jouer, attendez qu'un commit de fin de session de jeu apparaisse (cela signifie qu'aucun-e autre joueur-se n'est en train de jouer), puis créer votre commit de début de session de jeu (cf. ci dessous).
 
@@ -53,10 +95,9 @@ Il faut suivre les étapes suivantes :
 ## Comment lancer une partie sur un *nouveau* jeu ?
 
 1. Avoir un consensus disant que le jeu numéro `n` est bien terminé, avant de commencer le jeu `n+1` !
-   > Actuellement, le 15 avril 2020, `n=0` va nous laisser commencer sur le premier jeu `n=1`.
+   > Actuellement, le 20 mai 2020, `n=0` va nous laisser commencer sur le premier jeu `n=1`.
 
-2. Avoir un consensus décidant le jeu à commencer, en respectant l'ordre (évidemment, on ne passe à un jeu de la génération `G` que lorsqu'un jeu ed la génération `G-1` a été terminé) ;
-   > Actuellement, le 15 avril 2020, `G=0` va nous laisser commencer sur la version *Rouge* ou *Bleu* ou *Jaune*.
+2. Avoir un consensus décidant le jeu à commencer, en respectant l'ordre ;
 
 3. [Me laisser](https://besson.link/) le plaisir de commencer la partie, et la douleur d'installer [un nouveau dépôt sur GitHub](https://github.com/organizations/GBA-RPG-via-GitHub-contre-Covid-2020/repositories/new) pour le nouveau jeu ;
 
@@ -65,18 +106,19 @@ Il faut suivre les étapes suivantes :
 5. Se lancer : une joueuse décide de prendre la main, et ensuite s'enchaîne l'algorithme suivant :
 
 ### Algorithme pour jouer
+
 1. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer ;
 2. Joueur A décide de jouer, et écrit un commit commençant par `"START"`, par exemple `"START je vais jouer max 40 minutes, essayer de battre Pierre"` (via `git commit -m "START blabla bla"`);
 3. Joueur A décide de finir son moment de jouer :
-   + faire deux captures d'écran, avec le menu ouvert (pour montrer l'équipe actuelle) et fermé (pour montrer le lieu actuel) ;
+   + faire une capture d'écran ;
    + faire une sauvegarde ;
-   + ajouter tout ça au dépôt (avec `git add save.gb XXX.png XXX_team.png`) ;
+   + ajouter tout ça au dépôt (avec `git add save.gb XXX.png`) ;
    + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "END j'ai battu Pierre et mon équipe est de niveau 8"`);
    + et enfin synchroniser avec la version maître sur GitHub (avec `git push`) !
    + Attention : maximum 1 heure de temps réel (heure de Paris) entre un commit `"START"` et un commit `"END"`.
 
 4. Sans anarchie, sans problème, retour dans l'état initial 1.
-5. Si problème, le maître de la ligue chef spirituel gère les conflits, à grand *coup d'boule* !
+5. Si problème, le chef spirituel gère les conflits, à grand *coup d'boule* !
 
 > Il sera important de respecter cet algorithme, parce que j'utiliserai l'historique `git` des commits `START` et `END` pour savoir qui a joué et quand, et qui a capturé tel Pokémon.
 
@@ -92,17 +134,17 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 3. Si la décision est trop importante, le ou la maître de la ligue Pokémon du jeu `n-1` (actuellement, [@Naereen](https://GitHub.com/Naereen)) déciderai seul, comme tout chef spirituel digne de ce nom !
 
 4. Si la décision concerne les parties les plus techniques du projet, [je (Lilian Besson, @Naereen)](https://GitHub.com/Naereen) conserve le pouvoir (c'est moi le chef !).
-   > Et ouais, fallait avoir l'idée en premier ! *Remonte ton slibard, Lothard !*
+   > Et ouais, fallait avoir l'idée en premier ! *Remonte ton slibard, Lothard !* -- Perceval dans Kaamelott livre II.
 
 ## Mais en fait, pourquoi ?
 
 ![Wait, what?](https://media.giphy.com/media/xTiIzximlL8k0qWGmQ/giphy.gif)
 
-1. Pour s'amuser, parce que vive les Pokémon ;
+1. Pour s'amuser, parce que vive les jeux de rôle et vive la Game Boy Advance, meilleure console de tous les temps ;
 2. Pour s'amuser, parce que vive `git` et les nouvelles technologies ;
 3. Pour rajouter du lien social avec certain-e-s ami-e-s, parce que fuck le confinement et le coronavirus etc ;
 4. Pour s'initier de façon ludique à `git` ;
-5. Par curiosité, pour être capable de répondre tout le reste de ma vie à la question très importante que voici : "combien faut-il de jeune geek en confinement pour finir ensemble Pokémon GGG en collaborant via GitHub" (GGG = version que l'on réussira à terminer) ;
+5. Par curiosité, pour être capable de répondre tout le reste de ma vie à la question très importante que voici : *"combien faut-il de jeune geek en confinement pour finir ensemble [Pokémon GGG] ou [ce jeu de rôle] en collaborant via GitHub"* (GGG = version que l'on réussira à terminer) ;
 6. Pour faire des jolies vidéos à la fin de chaque partie, résumant la partie et montrant qui jouait à quel moment.
 
 ## Je comprends rien à l'historique de commits, *qui est qui ?*
@@ -117,9 +159,9 @@ Regardez [le fichier](whois.md), qui fait le lien entre noms d'utilisateurs sur 
 
 - [x] [Créer tutoriel émulateur](tutoriel_emulateur.md) :
 - [x] Ajouter ici le lien vers le fichier [whois](whois.md) ;
-- [x] Créer premier dépôt pour Pokémon version Rouge ou Bleu ou Jaune (Game Boy) :
+- [x] [Créer tutoriel `git` basique](tutoriel_git.md) : [sur mon site personnel](https://besson.link/tutogit.fr.html) ;
 
-- [ ] [Créer tutoriel `git` basique](tutoriel_git.md) ;
+- [ ] Créer premier dépôt pour Fire Emble ;
 - [ ] Créer modèle de template sur ce dépôt ;
 
 ---
