@@ -21,7 +21,7 @@
 > *Ecoute, je m'ennuie, je suis en confinement, je suis geek, j'ai des idées, j'ai pas de problèmes, alors pose pas de questions pénibles, veux-tu ?*
 
 - Si tu es ici, c'est que tu es intéressé-e, chouette !
-- Bienvenue dans le monde des Pokémons, devenus hyper geeks en 2020 et boostés aux OGM que sont les nouvelles technologies comme celles sur [GitHub](https://GitHub.com).
+- Bienvenue dans le monde des jeux de rôles des années 2000s (Fire Emblem, Golden Sun et autres perles), devenus hyper geeks en 2020 et boostés aux OGM que sont les nouvelles technologies comme celles sur [GitHub](https://GitHub.com).
 - Dans ce projet, tu vas jouer avec d'autres de mes ami-e-s à des jeux Pokémon (d'abord *Bleu* ou *Rouge*) sur ton ordinateur, gratuitement, en utilisant un émulateur et une copie numérique du jeu de 1998 (une "ROM").
   > Au lieu d'utiliser une vieille console trouvée dans le grenier, tu pourras installer [un émulateur](tutoriel_emulateur.md) (comme Visual Boy Advance, liens à venir), télécharger la ROM du jeu Pokémon actuellement jouée, [installer git](https://guides.github.com/activities/hello-world/) sur ton ordinateur, et télécharger la version actuelle du fichier de sauvegarde du jeu en cours.
 
@@ -44,7 +44,7 @@ Je veux faire de mon mieux pour vous aider à apprendre à utiliser git !
 > Vous pouvez [rajouter ici](pulls/) des jeux que vous pensez intéressants.
 > Regardez les listes de meilleurs jeux sur GBA : [sur jeuxvideo.com](http://www.jeuxvideo.com/meilleurs/machine-210/).
 
-### Jeux de rôle jouables sans manette
+## Jeux de rôle jouables sans manette
 
 Dans l'ordre dans lequel je compte les jouer :
 
@@ -70,7 +70,7 @@ Dans l'ordre dans lequel je compte les jouer :
 - *Shining Soul II* ;
 - *Shining Force : Resurrection of the Dark Dragon*.
 
-### Jeux de rôle jouables avec manette
+## Jeux de rôle jouables avec manette
 
 Ces autres jeux demandent de la dextérité et donc une manette,
 
@@ -161,7 +161,7 @@ Regardez [le fichier](whois.md), qui fait le lien entre noms d'utilisateurs sur 
 - [x] Ajouter ici le lien vers le fichier [whois](whois.md) ;
 - [x] [Créer tutoriel `git` basique](tutoriel_git.md) : [sur mon site personnel](https://besson.link/tutogit.fr.html) ;
 
-- [ ] Créer premier dépôt pour Fire Emble ;
+- [ ] Créer premier dépôt pour Fire Emblem ;
 - [ ] Créer modèle de template sur ce dépôt ;
 
 ---
