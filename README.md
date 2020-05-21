@@ -15,7 +15,7 @@
 
 ## Actuellement, quel(s) jeu(x) est en cours ?
 
-- Pas de jeu en cours.
+- [*Fire Emblem*](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem) (premier volume) commencé le jeudi 21 mai 2020.
 
 ## C'est quoi ce projet bizarre ?
 > *Ecoute, je m'ennuie, je suis en confinement, je suis geek, j'ai des idées, j'ai pas de problèmes, alors pose pas de questions pénibles, veux-tu ?*
@@ -48,7 +48,7 @@ Je veux faire de mon mieux pour vous aider à apprendre à utiliser git !
 
 Dans l'ordre dans lequel je compte les jouer :
 
-- *Fire Emblem* ;
+- [*Fire Emblem*](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem) ;
 - *Fire Emblem : The Sacred Stones* ;
 
 - *Golden Sun* ;
